@@ -1,70 +1,49 @@
-General Notes:
+# 🍕 Pizza Sales Dashboard
 
-🛠️ Tech Used: SQL + Power BI. Utilizing SQL for cross-checking correctness of Power BI results.
+## 🔍 Objective
+Analyze pizza sales data to uncover customer behavior, product performance, and revenue trends.
 
+---
 
+## 🛠️ Tools Used
+- SQL Server  
+- Power BI  
+- DAX  
 
-Steps:
+---
 
-1. 🗄️ Storing raw data file to SQL Server in the database named pizza_db.
+## ⚙️ Approach
+- Stored raw data in SQL Server database (*pizza_db*)  
+- Connected Power BI to SQL Server  
+- Used SQL queries to validate KPI calculations  
+- Built KPIs and measures using DAX  
+- Designed an interactive dashboard  
 
-2. 🖥️ Using this database for our project, connecting the same server with Power BI.
+---
 
-3. 📝 Created SQL syntax for cross-checking KPIs or other values with Power BI 
+## 📈 Key Insights
 
-4. 📊 Created different measures and KPIs for building the dashboard in Power BI.
+### 📅 Demand Patterns
+- Orders peak on weekends, especially Friday and Saturday evenings  
+- Highest demand observed in January and July  
 
+### 💰 Sales Performance
+- Classic category contributes the most to total orders and revenue  
+- Large size pizzas drive maximum sales  
 
+### 🥇 Best-Selling Products
+- Thai Chicken Pizza generates the highest revenue  
+- Classic Deluxe Pizza leads in quantity and total orders  
 
+### 🥉 Underperforming Products
+- Brie Carre Pizza contributes the least in revenue and orders  
 
+---
 
-Objective:
+## 📷 Dashboard Preview
+![Dashboard](pizza_ss1.png)
 
-"To leverage Power BI to analyze pizza sales data and generate actionable insights, highlighting key trends such as peak ordering times, popular menu items, and revenue drivers. By presenting these findings on LinkedIn, I aim to showcase my expertise in data analysis and visualization while providing valuable insights to inform business strategies in the food industry."
+---
 
-
-
-Findings (Also Present in Dashboard):
-
-
-
-📅 Busiest Days & Times
-
-DAYS: Orders peak on weekends, particularly Friday and Saturday evenings.
-
-MONTH: Maximum orders are in July and January.
-
-
-
-💰 Sales Performance
-
-CATEGORY: Classic category leads in size & total orders.
-
-SIZE: Large size pizza drives maximum sales.
-
-
-
-
-
-🥇 Best Sellers
-
-REVENUE: Thai Chicken Pizza contributes the most to revenue.
-
-QUANTITY: Classic Deluxe Pizza tops in total quantities.
-
-TOTAL ORDERS: Classic Deluxe Pizza records the highest total orders.
-
-
-
-🥇 Worst Sellers
-
-REVENUE: Brie Carre contributes the least to revenue.
-
-QUANTITY: Brie Carre Pizza has the lowest total quantities.
-
-TOTAL ORDERS: Brie Carre Pizza has the minimum total orders.
-
-
-
-Let's slice through the data and uncover insights together! 🍕💡 #powerbi  #DataAnalysis #PizzaSales #BusinessInsights 
-
+## 💡 Note
+This project demonstrates foundational skills in SQL validation and Power BI dashboarding.
